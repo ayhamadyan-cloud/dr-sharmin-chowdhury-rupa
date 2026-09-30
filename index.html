@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Sharmin Chowdhury Rupa | Medicine Specialist & Diabetologist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        medical: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-teal-500 selection:text-white">
+
+    <div class="bg-teal-900 text-teal-100 text-xs py-2 px-4 text-center sm:text-left">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center space-y-1 sm:space-y-0">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-ribbon text-pink-400"></i>
+                <span class="font-medium">Exclusive Medical Practice & Diabetology Care for Female Patients Only</span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="tel:01850679420" class="hover:text-white font-semibold flex items-center space-x-1">
+                    <i class="fa-solid fa-phone text-teal-400"></i>
+                    <span>01850679420</span>
+                </a>
+                <span class="hidden md:inline opacity-60">|</span>
+                <span class="hidden md:inline font-mono">BMDC Reg: A-49585</span>
+            </div>
+        </div>
+    </div>
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-teal-600 flex items-center justify-center text-white font-bold text-lg shadow-md shadow-teal-500/20">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    <div>
+                        <span class="block font-bold text-lg text-slate-900 tracking-tight leading-none">Dr. Sharmin Chowdhury Rupa</span>
+                        <span class="block text-xs font-semibold text-teal-700 tracking-wide mt-1">Consultant | Medicine Specialist & Diabetologist</span>
+                    </div>
+                </div>
+
+                <!-- Desktop Links -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">About</a>
+                    <a href="#credentials" class="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">Credentials</a>
+                    <a href="#specialty" class="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">Specialty</a>
+                    <a href="#verification" class="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">Verification</a>
+                    <a href="tel:01850679420" class="px-5 py-2.5 rounded-xl bg-teal-600 text-white font-medium text-sm hover:bg-teal-700 transition-all shadow-md shadow-teal-600/20 flex items-center space-x-2">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span>Call 01850679420</span>
+                    </a>
+                </nav>
+
+                <!-- Mobile Hamburger -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="p-2 rounded-lg text-slate-600 hover:text-teal-600 hover:bg-slate-100 focus:outline-none">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-100 px-4 pt-2 pb-4 space-y-2">
+            <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-slate-600 hover:text-teal-600 hover:bg-teal-50">About</a>
+            <a href="#credentials" class="block px-3 py-2 rounded-md text-base font-medium text-slate-600 hover:text-teal-600 hover:bg-teal-50">Credentials</a>
+            <a href="#specialty" class="block px-3 py-2 rounded-md text-base font-medium text-slate-600 hover:text-teal-600 hover:bg-teal-50">Specialty</a>
+            <a href="#verification" class="block px-3 py-2 rounded-md text-base font-medium text-slate-600 hover:text-teal-600 hover:bg-teal-50">Verification</a>
+            <div class="pt-2">
+                <a href="tel:01850679420" class="w-full flex items-center justify-center space-x-2 px-4 py-3 rounded-xl bg-teal-600 text-white font-medium text-sm hover:bg-teal-700 shadow-md shadow-teal-600/20">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Call 01850679420</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative bg-gradient-to-b from-teal-50/60 via-white to-white py-16 lg:py-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left text -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider">
+                        <i class="fa-solid fa-ribbon text-pink-600 mr-1"></i> Female Patients Only
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                        Dr. Sharmin Chowdhury Rupa
+                    </h1>
+                    <p class="text-xl text-teal-700 font-semibold">
+                        Consultant | Medicine Specialist & Diabetologist
+                    </p>
+                    <p class="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Providing top-tier internal medicine expertise and specialized diabetes care backed by world-class international credentials from the UK, Canada, and premier institutions in Bangladesh.
+                    </p>
+
+                    <!-- Degree Badges -->
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-2 pt-1">
+                        <span class="px-3 py-1 rounded-lg bg-white text-teal-800 text-xs font-bold border border-teal-200 shadow-sm">MBBS (SOMC)</span>
+                        <span class="px-3 py-1 rounded-lg bg-white text-teal-800 text-xs font-bold border border-teal-200 shadow-sm">CCD (BIRDEM)</span>
+                        <span class="px-3 py-1 rounded-lg bg-white text-teal-800 text-xs font-bold border border-teal-200 shadow-sm">MRCP (UK)</span>
+                        <span class="px-3 py-1 rounded-lg bg-white text-teal-800 text-xs font-bold border border-teal-200 shadow-sm">MCCEE (Canada)</span>
+                    </div>
+
+                    <!-- Action buttons --> <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="tel:01850679420" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-teal-600 text-white font-semibold text-center hover:bg-teal-700 transition-all shadow-lg shadow-teal-600/30 flex items-center justify-center space-x-3 text-base">
+                            <i class="fa-solid fa-phone-volume text-lg"></i>
+                            <span>Call 01850679420 for Appointment</span>
+                        </a>
+                        <a href="#about" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-white text-slate-700 font-semibold text-center border border-slate-200 hover:bg-slate-50 transition-all shadow-sm flex items-center justify-center space-x-2 text-base">
+                            <span>View Profile</span>
+                            <i class="fa-solid fa-arrow-down text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Profile Card -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-md">
+                        <div class="absolute -inset-2 bg-gradient-to-r from-teal-500 to-emerald-400 rounded-3xl blur-xl opacity-20 animate-pulse"></div>
+                        <div class="relative bg-white rounded-3xl p-6 sm:p-8 border border-slate-100 shadow-2xl space-y-6">
+                            
+                            <div class="flex items-center space-x-4 border-b border-slate-100 pb-6">
+                                <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-teal-600 to-teal-800 flex items-center justify-center text-white text-3xl font-bold shadow-md">
+                                    <i class="fa-solid fa-user-doctor"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-lg text-slate-900">Dr. Sharmin C. Rupa</h3>
+                                    <p class="text-xs text-teal-600 font-semibold uppercase tracking-wider">Internal Medicine Specialist</p>
+                                    <span class="inline-flex items-center mt-1.5 px-2.5 py-0.5 rounded bg-emerald-50 text-emerald-700 text-xs font-medium border border-emerald-200">
+                                        <i class="fa-solid fa-circle text-[7px] mr-1.5 text-emerald-500 animate-ping"></i> Open for Consultations
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="space-y-3 text-sm text-slate-600">
+                                <div class="flex items-start space-x-3">
+                                    <i class="fa-solid fa-hospital text-teal-600 mt-1"></i>
+                                    <div>
+                                        <span class="font-semibold text-slate-800 block">Ex-Resident</span>
+                                        <span class="text-xs">Medicine Department, Dhaka Medical College & Hospital</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3">
+                                    <i class="fa-solid fa-id-card text-teal-600 mt-1"></i>  <span class="font-semibold text-slate-800 block">BMDC Reg. No: A-49585</span>
+                                        <span class="text-xs">General Medical Council (UK) Registered</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3">
+                                    <i class="fa-solid fa-venus text-pink-600 mt-1"></i>
+                                    <div>
+                                        <span class="font-semibold text-slate-800 block">Exclusive Practice</span>
+                                        <span class="text-xs">Exclusively for female patients to ensure absolute privacy</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pt-2">
+                                <a href="tel:01850679420" class="block w-full bg-teal-50 hover:bg-teal-100 transition-colors rounded-xl p-4 border border-teal-200 text-center text-teal-900 group">
+                                    <span class="text-xs font-semibold text-teal-700 uppercase block">Direct Chamber Hotline</span>
+                                    <span class="text-lg font-bold text-teal-900 mt-0.5 block group-hover:scale-105 transition-transform">
+                                        <i class="fa-solid fa-phone mr-2 text-teal-600"></i>01850679420
+                                    </span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="credentials" class="py-20 bg-white border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-teal-600">Academic Excellence</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-slate-900">Degrees & Academic Career</h2>
+                <p class="text-slate-600 text-base sm:text-lg">
+                    Comprehensive training across elite national and international medical institutions.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- MBBS -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-md transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center font-bold text-lg">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full bg-teal-100 text-teal-800 text-xs font-bold">MBBS</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">MBBS Degree</h3>
+                        <p class="text-teal-700 text-sm font-semibold mb-3">Sylhet Osmani Medical College & Hospital</p>
+                        <p class="text-slate-600 text-xs leading-relaxed">Foundation in general medicine, surgery, and clinical practice.</p>
+                    </div>
+                </div>
+
+                <!-- CCD -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-md transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center font-bold text-lg">
+                                <i class="fa-solid fa-notes-medical"></i>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full bg-teal-100 text-teal-800 text-xs font-bold">CCD</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">CCD (Diabetology)</h3>
+                        <p class="text-teal-700 text-sm font-semibold mb-3">BIRDEM</p>
+                        <p class="text-slate-600 text-xs leading-relaxed">Specialized training in diabetes management from Bangladesh Institute of Research and Rehabilitation in Diabetes.</p>
+                    </div>
+                </div>
+
+                <!-- MCCEE -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-md transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center font-bold text-lg">
+                                <i class="fa-solid fa-file-medical"></i>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full bg-teal-100 text-teal-800 text-xs font-bold">MCCEE</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">MCCEE (Medicine)</h3>
+                        <p class="text-teal-700 text-sm font-semibold mb-3">Medical Council of Canada</p>
+                        <p class="text-slate-600 text-xs leading-relaxed">Evaluating Examination qualification meeting Canadian clinical standards.</p>
+                    </div>
+                </div>
+
+                <!-- MRCP -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-md transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center font-bold text-lg">
+                                <i class="fa-solid fa-award"></i>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full bg-teal-100 text-teal-800 text-xs font-bold">MRCP</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-1">MRCP (Medicine)</h3>
+                        <p class="text-teal-700 text-sm font-semibold mb-3">Royal College of Physicians of Edinburgh (UK)</p>
+                        <p class="text-slate-600 text-xs leading-relaxed">Prestigious postgraduate medical membership from the United Kingdom.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-slate-50 border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider">
+                        <i class="fa-solid fa-user-shield mr-1"></i> Professional Experience
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-slate-900">
+                        Ex-Resident at Dhaka Medical College & Hospital
+                    </h2>
+                    <p class="text-slate-600 text-base leading-relaxed">
+                        Dr. Sharmin Chowdhury Rupa served as a Resident in the Medicine Department at Dhaka Medical College & Hospital (DMCH), managing complex inpatient cases, critical care situations, and internal medical emergencies.
+                    </p>
+                    
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start space-x-3">
+                            <div class="w-6 h-6 rounded-full bg-teal-600 text-white flex items-center justify-center mt-0.5 text-xs font-bold"><i class="fa-solid fa-check"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-slate-900">Internal Medicine Specialization</h4>
+                                <p class="text-slate-600 text-sm">Expertise in diagnosing and treating multi-system diseases, infectious disorders, and chronic illnesses.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-6 h-6 rounded-full bg-teal-600 text-white flex items-center justify-center mt-0.5 text-xs font-bold"><i class="fa-solid fa-check"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-slate-900">Diabetology Care</h4>
+                                <p class="text-slate-600 text-sm">Advanced BIRDEM-trained guidance for blood sugar control, insulin therapy, and metabolic health.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6">
+                    <div class="bg-gradient-to-br from-teal-900 to-teal-800 rounded-3xl p-8 sm:p-10 text-white shadow-xl space-y-6 relative overflow-hidden">
+                        <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-teal-700 rounded-full blur-2xl opacity-40"></div>
+                        
+                        <h3 class="text-2xl font-bold">Key Achievements & Registrations</h3>
+                        <p class="text-teal-100 text-sm">Recognized by premier medical boards globally and locally.</p>
+                        
+                        <div class="space-y-4 pt-2">
+                            <div class="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/10 flex items-center space-x-4">
+                                <div class="w-12 h-12 rounded-xl bg-teal-600/50 flex items-center justify-center text-teal-200 text-xl shrink-0">
+                                    <i class="fa-solid fa-certificate"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-sm">General Medical Council (UK) Registered</h4>
+                                    <p class="text-xs text-teal-200 mt-0.5">Fully certified for practice under UK regulatory standards.</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/10 flex items-center space-x-4">
+                                <div class="w-12 h-12 rounded-xl bg-teal-600/50 flex items-center justify-center text-teal-200 text-xl shrink-0">
+                                    <i class="fa-solid fa-id-badge"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-sm">BMDC Registration No: A-49585</h4>
+                                    <p class="text-xs text-teal-200 mt-0.5">Authorized medical practitioner registered with BMDC.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="specialty" class="py-20 bg-white border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-teal-600">Patient Care Focus</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-slate-900">Medicine Specialist & Diabetologist</h2>
+                <p class="text-slate-600 text-base sm:text-lg">
+                    Dedicated practice environment exclusively reserved for female patients.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-all space-y-4">
+                    <div class="w-14 h-14 rounded-2xl bg-teal-100 text-teal-700 flex items-center justify-center text-2xl font-bold">
+                        <i class="fa-solid fa-venus"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">Female Patients Only</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Ensuring complete comfort, privacy, and uncompromised dignity for all consultations, examinations, and counseling sessions.
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-all space-y-4">
+                    <div class="w-14 h-14 rounded-2xl bg-teal-100 text-teal-700 flex items-center justify-center text-2xl font-bold">
+                        <i class="fa-solid fa-droplet"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">Diabetes & Metabolism</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Expert management of Type 1, Type 2, gestational diabetes, thyroid imbalances, and lifestyle-related metabolic disorders.
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-all space-y-4">
+                    <div class="w-14 h-14 rounded-2xl bg-teal-100 text-teal-700 flex items-center justify-center text-2xl font-bold">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">Internal Medicine</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Comprehensive evaluation and management of hypertension, asthma, respiratory illnesses, fever, and chronic internal conditions.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="verification" class="py-20 bg-slate-50 border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-teal-600">Compliance & Trust</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-slate-900">Official Registration Verification</h2>
+                <p class="text-slate-600 text-base sm:text-lg">
+                    Verified medical licensure numbers for institutional and patient assurance.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                
+                <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm flex items-start space-x-5">
+                    <div class="w-16 h-16 rounded-2xl bg-teal-100 text-teal-700 flex items-center justify-center text-2xl shrink-0">
+                        <i class="fa-solid fa-id-card"></i>
+                    </div>
+                    <div class="space-y-2">
+                        <span class="px-2.5 py-0.5 rounded bg-teal-50 text-teal-700 text-xs font-bold uppercase">BMDC Official</span>
+                        <h3 class="text-xl font-bold text-slate-900">Registration Number</h3>
+                        <p class="text-teal-900 font-mono font-bold text-lg bg-teal-50 px-3.5 py-1.5 rounded-lg border border-teal-200 inline-block">
+                            A-49585
+                        </p>
+                        <p class="text-slate-500 text-xs">Bangladesh Medical & Dental Council registered practitioner.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm flex items-start space-x-5">
+                    <div class="w-16 h-16 rounded-2xl bg-teal-100 text-teal-700 flex items-center justify-center text-2xl shrink-0">
+                        <i class="fa-solid fa-globe-europe"></i>
+                    </div>
+                    <div class="space-y-2">
+                                    <div>   <span class="px-2.5 py-0.5 rounded bg-teal-50 text-teal-700 text-xs font-bold uppercase">International Board</span>
+                        <h3 class="text-xl font-bold text-slate-900">GMC (UK) Registered</h3>
+                        <p class="text-teal-800 font-semibold text-sm">
+                            General Medical Council, United Kingdom
+                        </p>
+                        <p class="text-slate-500 text-xs">Verified compliance with UK standards and MRCP qualification.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <div class="lg:col-span-5 space-y-8">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-widest text-teal-600">Appointments</span>
+                        <h2 class="text-3xl font-bold text-slate-900 mt-2">Book Your Consultation</h2>
+                        <p class="text-slate-600 text-base mt-2">
+                            Call directly at <strong class="text-teal-700 font-semibold">01850679420</strong> or submit your appointment request using the form.
+                        </p>
+                    </div>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Direct Hotline</h4>
+                                <a href="tel:01850679420" class="text-teal-700 font-bold text-lg hover:underline mt-0.5 block">01850679420</a>
+                                <p class="text-xs text-slate-500">Call for immediate schedule confirmation</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Chamber Location</h4>
+                                <p class="text-slate-600 text-sm mt-1">Dhaka, Bangladesh</p>
+                                <p class="text-xs text-pink-700 font-semibold mt-0.5">Strictly Female Patients Only</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="bg-slate-50 rounded-3xl p-8 sm:p-10 border border-slate-200 shadow-sm">
+                        <h3 class="text-xl font-bold text-slate-900 mb-6">Appointment Request Form</h3>
+                        
+                        <!-- Success Message Box -->
+                        <div id="success-box" class="hidden mb-6 p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-sm">
+                            <div class="flex items-center space-x-2 font-semibold">
+                                <i class="fa-solid fa-circle-check text-emerald-600 text-lg"></i>
+                                <span>Appointment Request Received Successfully!</span>
+                            </div>
+                            <p class="mt-1 text-xs text-emerald-700">Thank you. Our chamber coordinator will call you back at your number to confirm the exact time slot.</p>
+                        </div>
+
+                        <form id="appointment-form" class="space-y-4" onsubmit="handleFormSubmit(event)">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Patient Name *</label>
+                                    <input type="text" required class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500" placeholder="Enter patient name">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Mobile Number *</label>
+                                    <input type="tel" required class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500" placeholder="01850679420">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Age *</label>
+                                    <input type="number" required class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500" placeholder="Patient age">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Preferred Date *</label>
+                                    <input type="date" required class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Consultation Concern *</label>
+                                <select class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500">
+                                    <option>Diabetes Management & Follow-up (CCD BIRDEM)</option>
+                                    <option>Internal Medicine Consultation</option>
+                                    <option>Thyroid Disorder & Metabolism</option>
+                                    <option>Hypertension & Cardiovascular Health</option>
+                                    <option>General Health Check-up</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Symptoms Notes (Optional)</label>
+                                <textarea rows="3" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500" placeholder="Briefly describe your symptoms..."></textarea>
+                            </div>
+
+                            <div class="pt-2">
+                                <button type="submit" class="w-full py-4 rounded-xl bg-teal-600 text-white font-semibold text-sm hover:bg-teal-700 transition-all shadow-md shadow-teal-600/20 active:scale-[0.99]">
+                                    Submit Appointment Request
+                                </button>
+                            </div>
+                            <p class="text-[11px] text-slate-500 text-center mt-2">
+                                <i class="fa-solid fa-lock text-teal-600 mr-1"></i> Strict patient confidentiality maintained. Female patients only.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-white py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-teal-600 flex items-center justify-center text-white font-bold text-lg">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    <div>
+                        <span class="block font-bold text-base">Dr. Sharmin Chowdhury Rupa</span>
+                        <span class="block text-xs text-teal-400">BMDC Reg: A-49585 | Hotline: 01850679420</span>
+                    </div>
+                </div>
+                
+                <div class="text-sm text-slate-400 text-center md:text-right space-y-1">
+                    <p>&copy; 2026 Dr. Sharmin Chowdhury Rupa. All rights reserved.</p>
+                    <p class="text-xs text-teal-400 font-medium">Medicine Specialist & Diabetologist (Female Patients Only)</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close menu on link click
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Form submission handler
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const successBox = document.getElementById('success-box');
